@@ -1,2 +1,6 @@
 *.mp3
 *.json
+*.idea
+*__pycache__
+*env
+*.DS_Store
