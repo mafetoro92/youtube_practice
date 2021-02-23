@@ -29,19 +29,19 @@ def main():
 
     logger.info(f'start taking information for the csv file')
     list_for_csv=download_videos[0]
-    csv_file= make_file_csv(logger, list_for_csv)
-    typing_info_sheet = insert_row_col(list_for_csv)
-    inser_record=insert_info(logger,list_for_csv)
+    make_file_csv(logger, list_for_csv)
+    insert_row_col(list_for_csv)
+    insert_info(logger,list_for_csv)
     logger.info(f'finished making the csv file')
 
 
     logger.info(f'starting manipulate the sounds')
     list_for_mananger = download_videos[1]
-    manange_merge= mananger_sounds(list_for_mananger)
+    mananger_sounds(list_for_mananger)
     merge_files(logger, list_for_mananger, 'merge_alarm.mp3')
     logger.info(f'finished merge the sounds')
 
-    post = upload_tweet(list_for_mananger)
+    upload_tweet(list_for_mananger)
 
     logger.info(f'end to the program')
 
