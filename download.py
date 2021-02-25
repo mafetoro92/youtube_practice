@@ -64,26 +64,26 @@ def download_youtube_files(logger, files):
             file_date = info['upload_date']
             logger.info(f'Took year the {sound} ')
 
-            logger.info(f'validation if the file is the 2020')
+            logger.info('validation if the file is the 2020')
             take_year = videos_year(file_date)
             if take_year == '2020':
-                logger.info(f'If the file is to 2020 we start download')
+                logger.info('If the file is to 2020 we start download')
                 download_2020 = ydl.extract_info(sound, download=True)
-                logger.info(f'Download ready')
+                logger.info('Download ready')
 
                 logger.info(f'Take name the {sound} ')
                 file_path = ydl.prepare_filename(
                     info)  # prepare_filename es otra funcion de ydl va a retun el fiel name del url que le pasemo 10 seconds shor music
                 logger.info(f'Took name the {sound} ')
 
-                logger.info(f'Take information for start making csv ')
+                logger.info('Take information for start making csv ')
                 information_files = info_url(logger, info, sound)
-                logger.info(f'Took information for the csv ')
+                logger.info('Took information for the csv ')
 
                 logger.info(f'converting extension the {file_path}  in .mp3')
                 new_file_path = convert_filepath(
                     file_path)  # call funtion, vamos a pasarle como parametro el nombre del url NO LOGGER ya que no requerimos log mens en esta funtion
-                logger.info(f'converted with .mp3 extension ready')
+                logger.info('converted with .mp3 extension ready')
 
                 logger.info(f'Appending {new_file_path} to a output_file list')
                 output_files.append(new_file_path)  # se append al empty list
