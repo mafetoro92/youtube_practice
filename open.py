@@ -1,8 +1,6 @@
-urls = []
-
 def open_file():
+    urls = []
     with open('urls.txt') as fp:
-       fp = open('urls.txt')
-       for row in fp:
+        for row in fp:
             urls.append(row)
     return urls

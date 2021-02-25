@@ -1,10 +1,11 @@
 import sqlite3
 
+
 def insert_info(logger, record_info):
     logger.info(f'Start our conection with database')
-    connection=sqlite3.connect('youtube_database.db')
+    connection = sqlite3.connect('youtube_database.db')
 
-    c=connection.cursor()
+    c = connection.cursor()
     logger.info(f'Star insert many records into the table')
     c.executemany("INSERT INTO customers VALUES (?,?,?)", record_info)
     connection.commit()

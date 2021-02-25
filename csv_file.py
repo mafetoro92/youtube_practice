@@ -1,6 +1,7 @@
 import csv
 
-def make_file_csv(logger, files):
+
+def make_file_csv(files):
     with open('output.csv', 'w') as f1:
         outputWriter = csv.writer(f1)
         outputWriter.writerow(['likes', 'upload date', 'url'])
