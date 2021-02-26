@@ -26,12 +26,12 @@ def videos_year(file_date):
     return year
 
 
-def look_year(logger, take_year, sound, ydl):
+def look_year(logger, take_year):
     if take_year == '2020':
-        logger.info('If the file is to 2020 we start download')
-        download = ydl.extract_info(sound, download=True)
-        logger.info('Download ready')
-        return download
+        logger.info('If the file is to 2020 will be True')
+        return True
+    logger.info('If the file is not 2020 will be False')
+    return False
 
 
 def convert_filepath(file_path):
@@ -85,20 +85,23 @@ def download_youtube_files(logger, files):
             take_year = videos_year(file_date)
             logger.info(f'Took years from {sound} ')
 
-            logger.info(f'Validation if year is 2020')
-            validation = look_year(logger, take_year, sound, ydl)
-            if validation == None:
+            logger.info('Validation if year is 2020')
+            validation = look_year(logger, take_year)
+
+            if not validation:
                 continue
 
-            else:
-                logger.info('Take information for start making csv file videos 2020 ')
-                information_files = info_url(logger, info, sound)
-                logger.info('Took information for the csv files videos 2020 ')
+            logger.info('Start download the videos 2020')
+            ydl.extract_info(sound, download=True)
 
-                logger.info(f'Appending {new_file_path} to a output_file list')
-                output_files.append(new_file_path)  # se append al empty list
-                output_info.append(information_files)
-                logger.info(f'Appended {new_file_path} to output_file')
+            logger.info('Take information for start making csv file videos 2020 ')
+            information_files = info_url(logger, info, sound)
+            logger.info('Took information for the csv files videos 2020 ')
+
+            logger.info(f'Appending {new_file_path} to a output_file list')
+            output_files.append(new_file_path)  # se append al empty list
+            output_info.append(information_files)
+            logger.info(f'Appended {new_file_path} to output_file')
 
     logger.info('Finished for loop for every single url')
     return output_info, output_files

@@ -1763,3 +1763,237 @@
 2021-02-26 08:24:47,039 [INFO] finished export the merge file
 2021-02-26 08:24:47,042 [INFO] finished merge the sounds
 2021-02-26 08:24:48,283 [INFO] end to the program
+2021-02-26 14:39:29,299 [INFO] start the program
+2021-02-26 14:39:29,300 [INFO] getting the urls
+2021-02-26 14:39:29,300 [INFO] got  the urls and ready to download the sounds
+2021-02-26 14:39:31,952 [INFO] got ['https://www.youtube.com/watch?v=L5CV53wCWO0\n', 'https://www.youtube.com/watch?v=4Gx_jq66qOY\n', 'https://www.youtube.com/watch?v=yiR0NFkJC9Q\n', 'https://www.youtube.com/watch?v=VIsraMNmYsM\n', 'https://www.youtube.com/watch?v=MoKmQFZDOaM'], ready to download
+2021-02-26 14:39:31,952 [INFO] writing ydl options
+2021-02-26 14:39:31,952 [INFO] Wrote YDL options
+2021-02-26 14:39:31,952 [INFO] Starting for loop for every single url
+2021-02-26 14:39:32,099 [INFO] making ydl information the https://www.youtube.com/watch?v=L5CV53wCWO0
+2021-02-26 14:39:33,229 [INFO] made ydl information the https://www.youtube.com/watch?v=L5CV53wCWO0
+2021-02-26 14:39:33,229 [INFO] Take name the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:39:33,242 [INFO] Took name the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:39:33,243 [INFO] converting extension the 10 second short music-L5CV53wCWO0.webm  in .mp3
+2021-02-26 14:39:33,243 [INFO] converted with .mp3 extension ready
+2021-02-26 14:39:33,243 [INFO] Take upload date the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:39:33,243 [INFO] Took upload date the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:39:33,243 [INFO] Take  years from https://www.youtube.com/watch?v=L5CV53wCWO0
+2021-02-26 14:39:33,243 [INFO] Took years from https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:39:33,243 [INFO] Validation if year is 2020
+2021-02-26 14:39:33,329 [INFO] making ydl information the https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:39:34,117 [INFO] made ydl information the https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:39:34,117 [INFO] Take name the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:39:34,120 [INFO] Took name the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:39:34,120 [INFO] converting extension the 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.m4a  in .mp3
+2021-02-26 14:39:34,120 [INFO] converted with .mp3 extension ready
+2021-02-26 14:39:34,120 [INFO] Take upload date the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:39:34,120 [INFO] Took upload date the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:39:34,120 [INFO] Take  years from https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:39:34,120 [INFO] Took years from https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:39:34,120 [INFO] Validation if year is 2020
+2021-02-26 14:39:34,120 [INFO] If the file is to 2020 we start download
+2021-02-26 14:39:37,111 [INFO] Download ready
+2021-02-26 14:39:37,111 [INFO] Take information for start making csv file videos 2020 
+2021-02-26 14:39:37,112 [INFO] Making information about how many likes have https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:39:37,112 [INFO] Made the information, now append 110 to a output_info
+2021-02-26 14:39:37,112 [INFO] Making information about when was upload https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:39:37,112 [INFO] Made the information, now append 20200416 to a output_info
+2021-02-26 14:39:37,112 [INFO] Taking url the https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:39:37,112 [INFO] Append https://www.youtube.com/watch?v=4Gx_jq66qOY to a output_info
+2021-02-26 14:39:37,112 [INFO] Took information for the csv files videos 2020 
+2021-02-26 14:39:37,112 [INFO] Appending 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3 to a output_file list
+2021-02-26 14:39:37,112 [INFO] Appended 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3 to output_file
+2021-02-26 14:39:37,193 [INFO] making ydl information the https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:39:37,840 [INFO] made ydl information the https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:39:37,840 [INFO] Take name the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:39:37,844 [INFO] Took name the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:39:37,844 [INFO] converting extension the Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.webm  in .mp3
+2021-02-26 14:39:37,844 [INFO] converted with .mp3 extension ready
+2021-02-26 14:39:37,844 [INFO] Take upload date the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:39:37,844 [INFO] Took upload date the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:39:37,844 [INFO] Take  years from https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:39:37,844 [INFO] Took years from https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:39:37,844 [INFO] Validation if year is 2020
+2021-02-26 14:39:37,844 [INFO] If the file is to 2020 we start download
+2021-02-26 14:39:41,217 [INFO] Download ready
+2021-02-26 14:39:41,217 [INFO] Take information for start making csv file videos 2020 
+2021-02-26 14:39:41,217 [INFO] Making information about how many likes have https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:39:41,217 [INFO] Made the information, now append 36 to a output_info
+2021-02-26 14:39:41,218 [INFO] Making information about when was upload https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:39:41,218 [INFO] Made the information, now append 20200419 to a output_info
+2021-02-26 14:39:41,218 [INFO] Taking url the https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:39:41,218 [INFO] Append https://www.youtube.com/watch?v=yiR0NFkJC9Q to a output_info
+2021-02-26 14:39:41,218 [INFO] Took information for the csv files videos 2020 
+2021-02-26 14:39:41,218 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to a output_file list
+2021-02-26 14:39:41,218 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to output_file
+2021-02-26 14:39:41,300 [INFO] making ydl information the https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:39:42,096 [INFO] made ydl information the https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:39:42,096 [INFO] Take name the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:39:42,099 [INFO] Took name the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:39:42,099 [INFO] converting extension the Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.webm  in .mp3
+2021-02-26 14:39:42,099 [INFO] converted with .mp3 extension ready
+2021-02-26 14:39:42,099 [INFO] Take upload date the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:39:42,099 [INFO] Took upload date the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:39:42,100 [INFO] Take  years from https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:39:42,100 [INFO] Took years from https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:39:42,100 [INFO] Validation if year is 2020
+2021-02-26 14:39:42,100 [INFO] If the file is to 2020 we start download
+2021-02-26 14:39:45,313 [INFO] Download ready
+2021-02-26 14:39:45,313 [INFO] Take information for start making csv file videos 2020 
+2021-02-26 14:39:45,313 [INFO] Making information about how many likes have https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:39:45,313 [INFO] Made the information, now append 20 to a output_info
+2021-02-26 14:39:45,313 [INFO] Making information about when was upload https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:39:45,313 [INFO] Made the information, now append 20200419 to a output_info
+2021-02-26 14:39:45,314 [INFO] Taking url the https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:39:45,314 [INFO] Append https://www.youtube.com/watch?v=VIsraMNmYsM to a output_info
+2021-02-26 14:39:45,314 [INFO] Took information for the csv files videos 2020 
+2021-02-26 14:39:45,314 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to a output_file list
+2021-02-26 14:39:45,314 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to output_file
+2021-02-26 14:39:45,392 [INFO] making ydl information the https://www.youtube.com/watch?v=MoKmQFZDOaM
+2021-02-26 14:39:46,062 [INFO] made ydl information the https://www.youtube.com/watch?v=MoKmQFZDOaM
+2021-02-26 14:39:46,062 [INFO] Take name the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:39:46,063 [INFO] Took name the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:39:46,063 [INFO] converting extension the el video mas bonito del mundo con solo 15 segundos-MoKmQFZDOaM.webm  in .mp3
+2021-02-26 14:39:46,064 [INFO] converted with .mp3 extension ready
+2021-02-26 14:39:46,064 [INFO] Take upload date the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:39:46,064 [INFO] Took upload date the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:39:46,064 [INFO] Take  years from https://www.youtube.com/watch?v=MoKmQFZDOaM
+2021-02-26 14:39:46,064 [INFO] Took years from https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:39:46,064 [INFO] Validation if year is 2020
+2021-02-26 14:39:46,064 [INFO] Finished for loop for every single url
+2021-02-26 14:39:46,064 [INFO] got ([[110, '20200416', 'https://www.youtube.com/watch?v=4Gx_jq66qOY'], [36, '20200419', 'https://www.youtube.com/watch?v=yiR0NFkJC9Q'], [20, '20200419', 'https://www.youtube.com/watch?v=VIsraMNmYsM']], ['30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3', 'Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3', 'Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3']), ready to merge
+2021-02-26 14:39:48,412 [INFO] Start our conection with database
+2021-02-26 14:39:48,416 [INFO] Star insert many records into the table
+2021-02-26 14:39:48,420 [INFO] Finished insert records into the table
+2021-02-26 14:39:48,420 [INFO] Finished our conection with database
+2021-02-26 14:39:48,420 [INFO] finished making the csv file
+2021-02-26 14:39:50,481 [INFO] started for loop to merge files
+2021-02-26 14:39:50,482 [INFO] Appending 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3 to the merged file
+2021-02-26 14:39:50,618 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to the merged file
+2021-02-26 14:39:50,818 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to the merged file
+2021-02-26 14:39:50,818 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to the merged file
+2021-02-26 14:39:50,990 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to the merged file
+2021-02-26 14:39:50,990 [INFO] finished for loop to merge files
+2021-02-26 14:39:50,990 [INFO] started export the merge file in mp3 format
+2021-02-26 14:39:52,872 [INFO] finished export the merge file
+2021-02-26 14:39:52,876 [INFO] finished merge the sounds
+2021-02-26 14:39:54,126 [INFO] end to the program
+2021-02-26 14:54:11,723 [INFO] start the program
+2021-02-26 14:54:11,724 [INFO] getting the urls
+2021-02-26 14:54:11,725 [INFO] got  the urls and ready to download the sounds
+2021-02-26 14:54:13,950 [INFO] got ['https://www.youtube.com/watch?v=L5CV53wCWO0\n', 'https://www.youtube.com/watch?v=4Gx_jq66qOY\n', 'https://www.youtube.com/watch?v=yiR0NFkJC9Q\n', 'https://www.youtube.com/watch?v=VIsraMNmYsM\n', 'https://www.youtube.com/watch?v=MoKmQFZDOaM'], ready to download
+2021-02-26 14:54:13,950 [INFO] writing ydl options
+2021-02-26 14:54:13,950 [INFO] Wrote YDL options
+2021-02-26 14:54:13,950 [INFO] Starting for loop for every single url
+2021-02-26 14:54:14,100 [INFO] making ydl information the https://www.youtube.com/watch?v=L5CV53wCWO0
+2021-02-26 14:54:15,098 [INFO] made ydl information the https://www.youtube.com/watch?v=L5CV53wCWO0
+2021-02-26 14:54:15,099 [INFO] Take name the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:54:15,111 [INFO] Took name the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:54:15,111 [INFO] converting extension the 10 second short music-L5CV53wCWO0.webm  in .mp3
+2021-02-26 14:54:15,111 [INFO] converted with .mp3 extension ready
+2021-02-26 14:54:15,112 [INFO] Take upload date the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:54:15,112 [INFO] Took upload date the https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:54:15,112 [INFO] Take  years from https://www.youtube.com/watch?v=L5CV53wCWO0
+2021-02-26 14:54:15,112 [INFO] Took years from https://www.youtube.com/watch?v=L5CV53wCWO0 
+2021-02-26 14:54:15,112 [INFO] Validation if year is 2020
+2021-02-26 14:54:15,112 [INFO] If the file is not 2020 will be False
+2021-02-26 14:54:15,195 [INFO] making ydl information the https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:54:15,842 [INFO] made ydl information the https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:54:15,842 [INFO] Take name the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:54:15,845 [INFO] Took name the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:54:15,845 [INFO] converting extension the 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.m4a  in .mp3
+2021-02-26 14:54:15,845 [INFO] converted with .mp3 extension ready
+2021-02-26 14:54:15,845 [INFO] Take upload date the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:54:15,845 [INFO] Took upload date the https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:54:15,845 [INFO] Take  years from https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:54:15,846 [INFO] Took years from https://www.youtube.com/watch?v=4Gx_jq66qOY 
+2021-02-26 14:54:15,846 [INFO] Validation if year is 2020
+2021-02-26 14:54:15,846 [INFO] If the file is to 2020 will be True
+2021-02-26 14:54:15,846 [INFO] Start download the videos 2020
+2021-02-26 14:54:18,316 [INFO] Take information for start making csv file videos 2020 
+2021-02-26 14:54:18,317 [INFO] Making information about how many likes have https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:54:18,317 [INFO] Made the information, now append 111 to a output_info
+2021-02-26 14:54:18,317 [INFO] Making information about when was upload https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:54:18,317 [INFO] Made the information, now append 20200416 to a output_info
+2021-02-26 14:54:18,317 [INFO] Taking url the https://www.youtube.com/watch?v=4Gx_jq66qOY
+2021-02-26 14:54:18,317 [INFO] Append https://www.youtube.com/watch?v=4Gx_jq66qOY to a output_info
+2021-02-26 14:54:18,317 [INFO] Took information for the csv files videos 2020 
+2021-02-26 14:54:18,317 [INFO] Appending 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3 to a output_file list
+2021-02-26 14:54:18,317 [INFO] Appended 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3 to output_file
+2021-02-26 14:54:18,395 [INFO] making ydl information the https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:54:18,994 [INFO] made ydl information the https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:54:18,994 [INFO] Take name the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:54:18,997 [INFO] Took name the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:54:18,997 [INFO] converting extension the Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.webm  in .mp3
+2021-02-26 14:54:18,997 [INFO] converted with .mp3 extension ready
+2021-02-26 14:54:18,998 [INFO] Take upload date the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:54:18,998 [INFO] Took upload date the https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:54:18,998 [INFO] Take  years from https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:54:18,998 [INFO] Took years from https://www.youtube.com/watch?v=yiR0NFkJC9Q 
+2021-02-26 14:54:18,998 [INFO] Validation if year is 2020
+2021-02-26 14:54:18,998 [INFO] If the file is to 2020 will be True
+2021-02-26 14:54:18,998 [INFO] Start download the videos 2020
+2021-02-26 14:54:21,887 [INFO] Take information for start making csv file videos 2020 
+2021-02-26 14:54:21,888 [INFO] Making information about how many likes have https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:54:21,888 [INFO] Made the information, now append 36 to a output_info
+2021-02-26 14:54:21,888 [INFO] Making information about when was upload https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:54:21,888 [INFO] Made the information, now append 20200419 to a output_info
+2021-02-26 14:54:21,888 [INFO] Taking url the https://www.youtube.com/watch?v=yiR0NFkJC9Q
+2021-02-26 14:54:21,888 [INFO] Append https://www.youtube.com/watch?v=yiR0NFkJC9Q to a output_info
+2021-02-26 14:54:21,888 [INFO] Took information for the csv files videos 2020 
+2021-02-26 14:54:21,888 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to a output_file list
+2021-02-26 14:54:21,888 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to output_file
+2021-02-26 14:54:21,968 [INFO] making ydl information the https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:54:22,783 [INFO] made ydl information the https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:54:22,783 [INFO] Take name the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:54:22,786 [INFO] Took name the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:54:22,787 [INFO] converting extension the Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.webm  in .mp3
+2021-02-26 14:54:22,787 [INFO] converted with .mp3 extension ready
+2021-02-26 14:54:22,787 [INFO] Take upload date the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:54:22,787 [INFO] Took upload date the https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:54:22,787 [INFO] Take  years from https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:54:22,787 [INFO] Took years from https://www.youtube.com/watch?v=VIsraMNmYsM 
+2021-02-26 14:54:22,787 [INFO] Validation if year is 2020
+2021-02-26 14:54:22,787 [INFO] If the file is to 2020 will be True
+2021-02-26 14:54:22,787 [INFO] Start download the videos 2020
+2021-02-26 14:54:26,895 [INFO] Take information for start making csv file videos 2020 
+2021-02-26 14:54:26,896 [INFO] Making information about how many likes have https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:54:26,896 [INFO] Made the information, now append 20 to a output_info
+2021-02-26 14:54:26,896 [INFO] Making information about when was upload https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:54:26,896 [INFO] Made the information, now append 20200419 to a output_info
+2021-02-26 14:54:26,897 [INFO] Taking url the https://www.youtube.com/watch?v=VIsraMNmYsM
+2021-02-26 14:54:26,897 [INFO] Append https://www.youtube.com/watch?v=VIsraMNmYsM to a output_info
+2021-02-26 14:54:26,897 [INFO] Took information for the csv files videos 2020 
+2021-02-26 14:54:26,897 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to a output_file list
+2021-02-26 14:54:26,897 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to output_file
+2021-02-26 14:54:26,975 [INFO] making ydl information the https://www.youtube.com/watch?v=MoKmQFZDOaM
+2021-02-26 14:54:27,717 [INFO] made ydl information the https://www.youtube.com/watch?v=MoKmQFZDOaM
+2021-02-26 14:54:27,718 [INFO] Take name the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:54:27,719 [INFO] Took name the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:54:27,719 [INFO] converting extension the el video mas bonito del mundo con solo 15 segundos-MoKmQFZDOaM.webm  in .mp3
+2021-02-26 14:54:27,719 [INFO] converted with .mp3 extension ready
+2021-02-26 14:54:27,719 [INFO] Take upload date the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:54:27,719 [INFO] Took upload date the https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:54:27,719 [INFO] Take  years from https://www.youtube.com/watch?v=MoKmQFZDOaM
+2021-02-26 14:54:27,719 [INFO] Took years from https://www.youtube.com/watch?v=MoKmQFZDOaM 
+2021-02-26 14:54:27,719 [INFO] Validation if year is 2020
+2021-02-26 14:54:27,719 [INFO] If the file is not 2020 will be False
+2021-02-26 14:54:27,719 [INFO] Finished for loop for every single url
+2021-02-26 14:54:27,719 [INFO] got ([[111, '20200416', 'https://www.youtube.com/watch?v=4Gx_jq66qOY'], [36, '20200419', 'https://www.youtube.com/watch?v=yiR0NFkJC9Q'], [20, '20200419', 'https://www.youtube.com/watch?v=VIsraMNmYsM']], ['30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3', 'Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3', 'Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3']), ready to merge
+2021-02-26 14:54:29,925 [INFO] Start our conection with database
+2021-02-26 14:54:29,930 [INFO] Star insert many records into the table
+2021-02-26 14:54:29,935 [INFO] Finished insert records into the table
+2021-02-26 14:54:29,936 [INFO] Finished our conection with database
+2021-02-26 14:54:29,936 [INFO] finished making the csv file
+2021-02-26 14:54:31,978 [INFO] started for loop to merge files
+2021-02-26 14:54:31,980 [INFO] Appending 30 second video_heavy rain sounds_heavy rain sounds for sleeping_rain and thunder sounds-4Gx_jq66qOY.mp3 to the merged file
+2021-02-26 14:54:32,121 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to the merged file
+2021-02-26 14:54:32,318 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 sgundos _Relax _ Relajacion-yiR0NFkJC9Q.mp3 to the merged file
+2021-02-26 14:54:32,319 [INFO] Appending Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to the merged file
+2021-02-26 14:54:32,488 [INFO] Appended Paisajes _ Impresionantes _ Hermosos _ Naturaleza _ Musica Suave _30 segundos _Relax _ Relajacion-VIsraMNmYsM.mp3 to the merged file
+2021-02-26 14:54:32,488 [INFO] finished for loop to merge files
+2021-02-26 14:54:32,488 [INFO] started export the merge file in mp3 format
+2021-02-26 14:54:34,371 [INFO] finished export the merge file
+2021-02-26 14:54:34,374 [INFO] finished merge the sounds
+2021-02-26 14:54:35,763 [INFO] end to the program
