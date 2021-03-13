@@ -1,7 +1,9 @@
 import youtube_dl
+from logging import Logger
+import typing
 
 
-def info_url(logger, info, sound):
+def info_url(logger:Logger, info:typing.Dict[str,str], sound:str)->typing.List[str]:
     file_info = []  # make this a dictionary. file_info = {}
     logger.info(f'Making information about how many likes have {sound}')
     likes_url = info['like_count']
@@ -21,12 +23,12 @@ def info_url(logger, info, sound):
     return file_info
 
 
-def videos_year(file_date):
+def videos_year(file_date:str)->str:
     year = file_date[0:4]
     return year
 
 
-def look_year(logger, take_year):
+def look_year(logger:Logger,take_year:str)->bool:
     if take_year == '2020':
         logger.info('If the file is to 2020 will be True')
         return True
@@ -34,14 +36,14 @@ def look_year(logger, take_year):
     return False
 
 
-def convert_filepath(file_path):
+def convert_filepath(file_path:str)->str:
     # I want to change '10 second short music-L5CV53wCWO0.webm' to '10 second short music-L5CV53wCWO0.mp3' the .webm to .mp3
     split_file_path = file_path.rsplit('.', 1)
     new_file_path = f"{split_file_path[0]}.mp3"
     return new_file_path
 
 
-def download_youtube_files(logger, files):
+def download_youtube_files(logger: Logger, files:typing.List[str])->typing.Tuple[list[list[str]], list[str]]:
     logger.info('writing ydl options')
 
     ydl_opts = {

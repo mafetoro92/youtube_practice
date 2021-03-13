@@ -1,8 +1,9 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import typing
 
 
-def insert_row_col(info_sheet):
+def insert_row_col(info_sheet: typing.List[list[str]]):
     scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/auth/spreadsheets',
              "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
     creds = ServiceAccountCredentials.from_json_keyfile_name('keys.json', scope)

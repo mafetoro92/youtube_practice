@@ -1,7 +1,9 @@
 from pydub import AudioSegment
+from logging import Logger
+import typing
 
 
-def merge_files(logger, sounds, destination_file):
+def merge_files(logger: Logger, sounds:typing.List[str], destination_file:typing.List[str]):
     logger.info('started for loop to merge files')
     for place_in_list, file_path in enumerate(sounds):
         logger.info(f'Appending {file_path} to the merged file')
