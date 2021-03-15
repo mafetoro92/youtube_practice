@@ -43,7 +43,7 @@ def convert_filepath(file_path:str)->str:
     return new_file_path
 
 
-def download_youtube_files(logger: Logger, files:typing.List[str])->typing.Tuple[list[list[str]], list[str]]:
+def download_youtube_files(logger: Logger, files:typing.List[str])->typing.Tuple[list[list[str]], list[str]]: # the return typing is incorrect. Can you try again?
     logger.info('writing ydl options')
 
     ydl_opts = {

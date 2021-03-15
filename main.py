@@ -15,13 +15,13 @@ def main():
                         handlers=[logging.FileHandler("debug.log"), logging.StreamHandler()])
 
     logger = logging.getLogger(__name__)
-    logger.info('start the program')
+    logger.info('start the program') # It's better to stay starting the program
 
     logger.info('getting the urls')
-    file_url = open_file()
+    file_url = open_file() # this looks good. I'd like you to rename open_file to something more descriptive.
     logger.info('got  the urls and ready to download the sounds')
 
-    file_download = sheet_url()
+    file_download = sheet_url() # I'd like to rename sheet_url.
 
     logger.info(f'got {file_url}, ready to download')
     download_videos = download_youtube_files(logger, file_download)
@@ -40,7 +40,7 @@ def main():
 
     upload_tweet(list_for_mananger)
 
-    logger.info(f'end to the program')
+    logger.info(f'end to the program') # program ended
 
 
 if __name__ == '__main__':

@@ -3,7 +3,7 @@ from logging import Logger
 import typing
 
 
-def merge_files(logger: Logger, sounds:typing.List[str], destination_file:typing.List[str]):
+def merge_files(logger: Logger, sounds:typing.List[str], destination_file:typing.List[str]): # I don't think this typing is correct
     logger.info('started for loop to merge files')
     for place_in_list, file_path in enumerate(sounds):
         logger.info(f'Appending {file_path} to the merged file')
@@ -18,5 +18,5 @@ def merge_files(logger: Logger, sounds:typing.List[str], destination_file:typing
     logger.info('finished for loop to merge files')
 
     logger.info('started export the merge file in mp3 format')
-    merge_f.export(destination_file, format='mp3')
+    merge_f.export(destination_file, format='mp3') # What happens if the if block above doesn't get called
     logger.info('finished export the merge file')
