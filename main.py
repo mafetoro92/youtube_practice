@@ -1,6 +1,6 @@
 from download import download_youtube_files
 from merge import merge_files
-from open import open_file
+from open import get_url
 from csv_file import make_file_csv
 from mananger_sound import mananger_sounds
 from sheet import sheet_url
@@ -15,10 +15,10 @@ def main():
                         handlers=[logging.FileHandler("debug.log"), logging.StreamHandler()])
 
     logger = logging.getLogger(__name__)
-    logger.info('start the program') # It's better to stay starting the program
+    logger.info('starting the program')
 
     logger.info('getting the urls')
-    file_url = open_file() # this looks good. I'd like you to rename open_file to something more descriptive.
+    file_url = get_url() # I'd like you to rename open_file to something more descriptive.
     logger.info('got  the urls and ready to download the sounds')
 
     file_download = sheet_url() # I'd like to rename sheet_url.
