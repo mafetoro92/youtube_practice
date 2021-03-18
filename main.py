@@ -36,7 +36,7 @@ def main():
     list_for_mananger = download_videos[1]
     mananger_sounds(list_for_mananger)
     merge_files(logger, list_for_mananger, 'merge_alarm.mp3')
-    logger.info('finished merge the sounds')
+    logger.info('finished merge the sounds')g
 
     upload_tweet(list_for_mananger)
 
