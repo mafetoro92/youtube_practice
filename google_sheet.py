@@ -16,8 +16,13 @@ def insert_row_col(info_sheet: typing.List[typing.Dict[str, str]]) -> None:
 
     l = []
     l.append(header)
+    create_info= []
+
     for row in info_sheet[1:]:
         for m in row.values():
-            l.append(m)
+            create_info.append(m)
+
+    for x in create_info:
+        l.append(x)
 
     worksheet2.update(l)
