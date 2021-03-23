@@ -3,32 +3,32 @@ from logging import Logger
 import typing
 
 
-def info_url(logger:Logger, info:typing.Dict[str,str], sound:str)->typing.List[str]:
-    file_info = []  # make this a dictionary. file_info = {}
+def info_url(logger: Logger, info: typing.Dict[str, str], sound: str) -> typing.Dict[str, str]:
+    file_info = {}  # make this a dictionary. file_info = {}
     logger.info(f'Making information about how many likes have {sound}')
     likes_url = info['like_count']
     logger.info(f'Made the information, now append {likes_url} to a output_info')
-    file_info.append(likes_url)  # file_info['likes'] = info['like_count']
+    file_info['likes'] = likes_url
 
     logger.info(f'Making information about when was upload {sound}')
     upload = info['upload_date']
     logger.info(f'Made the information, now append {upload} to a output_info')
-    file_info.append(upload)  # file_info['upload_date'] = upload
+    file_info ['upload_date'] = upload
 
     logger.info(f'Taking url the {sound}')
     url_video = sound
     logger.info(f'Append {url_video} to a output_info')
-    file_info.append(url_video)
+    file_info ['url'] = url_video
 
     return file_info
 
 
-def videos_year(file_date:str)->str:
+def videos_year(file_date: str) -> str:
     year = file_date[0:4]
     return year
 
 
-def look_year(logger:Logger,take_year:str)->bool:
+def look_year(logger: Logger, take_year: str) -> bool:
     if take_year == '2020':
         logger.info('If the file is to 2020 will be True')
         return True
@@ -36,14 +36,15 @@ def look_year(logger:Logger,take_year:str)->bool:
     return False
 
 
-def convert_filepath(file_path:str)->str:
+def convert_filepath(file_path: str) -> str:
     # I want to change '10 second short music-L5CV53wCWO0.webm' to '10 second short music-L5CV53wCWO0.mp3' the .webm to .mp3
     split_file_path = file_path.rsplit('.', 1)
     new_file_path = f"{split_file_path[0]}.mp3"
     return new_file_path
 
 
-def download_youtube_files(logger: Logger, files:typing.List[str])->typing.Tuple[list[list[str]], list[str]]: # the return typing is incorrect. Can you try again?
+def download_youtube_files(logger: Logger,files:typing.List[str])->typing.Tuple[typing.List[typing.Dict[str,str]], typing.List[str]]:
+
     logger.info('writing ydl options')
 
     ydl_opts = {
@@ -75,8 +76,7 @@ def download_youtube_files(logger: Logger, files:typing.List[str])->typing.Tuple
             logger.info(f'Took name the {sound} ')
 
             logger.info(f'converting extension the {file_path}  in .mp3')
-            new_file_path = convert_filepath(
-                file_path)  # call funtion, vamos a pasarle como parametro el nombre del url NO LOGGER ya que no requerimos log mens en esta funtion
+            new_file_path = convert_filepath(file_path)  # call funtion, vamos a pasarle como parametro el nombre del url NO LOGGER ya que no requerimos log mens en esta funtion
             logger.info('converted with .mp3 extension ready')
 
             logger.info(f'Take upload date the {sound} ')

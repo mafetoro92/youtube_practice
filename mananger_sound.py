@@ -1,7 +1,8 @@
 from pydub import AudioSegment
 import typing
 
-def mananger_sounds(sounds:typing.List[str]):
+
+def mananger_sounds(sounds: typing.List[str]): #what can return this funtion ?
     file_ready = []
     for place_in_list, file_path in enumerate(sounds):
 

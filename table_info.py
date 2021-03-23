@@ -2,7 +2,8 @@ import sqlite3
 import typing
 from logging import Logger
 
-def insert_info(logger:Logger, record_info:typing.List[list[str]]):
+
+def insert_info(logger: Logger, record_info: typing.List[typing.Dict[str, str]]) -> None:
     logger.info('Start our conection with database')
     connection = sqlite3.connect('youtube_database.db')
 

@@ -1,7 +1,8 @@
 import tweepy
 import typing
 
-def upload_tweet(list_for_merge:typing.List[str]): # you should show that this doesn't return anything. --> typing.None
+
+def upload_tweet(list_for_merge: typing.List[str]) -> None:
     consumer_key = '84uNzaL0HFDs3cCTEIqA94fLc'
     consumer_secrect = 'Gxm9uBoGtpZrAQon8IyY31rT9DQ2QijmHDMHyaAXvDP6q2BrYk'
 

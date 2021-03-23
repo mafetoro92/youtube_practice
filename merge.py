@@ -3,7 +3,7 @@ from logging import Logger
 import typing
 
 
-def merge_files(logger: Logger, sounds:typing.List[str], destination_file:typing.List[str]): # I don't think this typing is correct
+def merge_files(logger: Logger, sounds:typing.List[str], destination_file:str): # what type can return this funcion ?
     logger.info('started for loop to merge files')
     for place_in_list, file_path in enumerate(sounds):
         logger.info(f'Appending {file_path} to the merged file')

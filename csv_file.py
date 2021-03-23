@@ -1,10 +1,11 @@
 import csv
 import typing
+import config
 
 
-def make_file_csv(files:typing.List[list]):
-    with open('output.csv', 'w') as f1:
-        outputWriter = csv.writer(f1)
-        outputWriter.writerow(['likes', 'upload date', 'url'])
+def make_file_csv(files: typing.List[typing.Dict[str, str]]) -> None:
+    with open(config.CSV_NAME, 'w') as fp:
+        outputwriter = csv.DictWriter(fp, fieldnames=['likes', 'upload_date', 'url'])
+        outputwriter.writeheader()
         for row in files:
-            outputWriter.writerow(row)
+            outputwriter.writerow(row)
