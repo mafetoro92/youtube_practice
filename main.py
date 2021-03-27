@@ -29,8 +29,8 @@ def main():
 
     list_for_csv = download_videos[0]
     make_file_csv(list_for_csv)
-    insert_row_col(list_for_csv)
-    insert_info(logger, list_for_csv)
+    x= insert_row_col(list_for_csv)
+    insert_info(logger, x)
     logger.info('finished making the csv file, inserting google sheet and table with sql lite')
 
     list_for_mananger = download_videos[1]
