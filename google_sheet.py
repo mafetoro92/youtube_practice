@@ -23,6 +23,24 @@ def insert_row_col(info_sheet: typing.List[typing.Dict[str, str]]) -> typing.Lis
             else:
                 sheet_values[k].append(d[k])
 
+    max_row_length = 0
+    written_sheet = []
+
+    for num, (k, v) in enumerate(sheet_values.items()):
+        if len(v) > max_row_length:
+            max_row_length = len(v)
+        if num == 0:
+            # first iteration
+            for num, i in enumerate(v):
+                written_sheet.append([i])
+                continue
+        for num, i in enumerate(v):
+            written_sheet[num].append(i)
+
+    # add headers to written sheet
+
+
+
     # create list of lists
     key=[list(sheet_values.keys())]
     value=list(sheet_values.values())
